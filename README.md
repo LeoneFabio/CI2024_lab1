@@ -16,6 +16,7 @@
 - _tweak3_ is an improved tweak function related to multiple random mutations w.r.t. _tweak2_
 
 ## Observations:
+- USING fitness2 is relevant to show the behaviour with both first and second criterion of fitness (i.e. #of covered items and -cost)
 - with fitness1, we have to start necessarily from a valid solution
 - using fitness2, we can also starting from an invalid solution (we are not attracted from all-falses state)
 - choosing a low number of iterations could lead to an invalid solution even though the algorithm is correct and it would work properly with more iterations. (example fitness2, startingpoint2 and 100 iteration doesn't work in the steepest step and restart)
