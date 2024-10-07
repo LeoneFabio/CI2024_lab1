@@ -23,11 +23,20 @@
 
 ## TO DO:
 - run entire code with the 6 istances of requested (UNIVERSE_SIZE, NUM_SETS and density)
-- change titles in the plots --> especially in Simulated annealing plot
+- change titles in the plots --> especially in Simulated annealing plot and tabu search one
 - search for better parameters in simulated annealing in order to do not spend so much time with 100_000 universal size configurations
+- try if possible to create an initial index in the notebook, so that everything is more clear
+
+- change
+_def stopping_criterion():
+    NUM_STEPS = 150
+    return range(NUM_STEPS)_
+with 
+_def stopping_criterion(NUM_STEPS):
+    return range(NUM_STEPS)_
 
 ## Statistics and results 
-In the following, results regarding from the 6 instances.
+In the following, results about the 6 instances.
 
 ## References and Collaborations
 #### Book -->
