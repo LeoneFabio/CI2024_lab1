@@ -24,17 +24,11 @@
 
 ## TO DO:
 - run entire code with the 6 istances of requested (UNIVERSE_SIZE, NUM_SETS and density)
-- change titles in the plots --> especially in Simulated annealing plot and tabu search one
+- delete plots of second fitness and starting point w.r.t. the -cost --> are useless, they don't give us any further info
+- add 'write into a file' lines of code, in order to save results
 - search for better parameters in simulated annealing in order to do not spend so much time with 100_000 universal size configurations
 - try if possible to create an initial index in the notebook, so that everything is more clear
 
-- change
-_def stopping_criterion():
-    NUM_STEPS = 150
-    return range(NUM_STEPS)_
-with 
-_def stopping_criterion(NUM_STEPS):
-    return range(NUM_STEPS)_
 
 ## Statistics and results 
 In the following, results about the 6 instances.
